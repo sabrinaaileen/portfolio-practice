@@ -197,3 +197,20 @@ svg {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  #img-index-yoga,
+  #img-index-weather,
+  #img-index-yoghurt {
+    display: none;
+  }
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
